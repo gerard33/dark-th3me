@@ -9,10 +9,10 @@ copy dark-th3me folder to domoticz/www/styles/
 iPad
 ![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/theme3.jpg)
 
-The devices are also showing some more information in the small colored bar at the top left.
+The devices are also showing some more information in the small colored bar at the top left.<br />
 White -> normal<br />
 Blue -> protected device<br />
 Red -> not updated for a while<br />
 Yellow -> battery almost empty<br />
-![alt tag](https://github.com/gerard33/dark-th3me/screenshots/buttons.png)
-![alt tag](https://github.com/gerard33/dark-th3me/screenshots/buttons 2.png)
+![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/buttons.png)
+![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/buttons 2.png)
