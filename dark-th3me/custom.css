@@ -1,13 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Damion);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-@import url(https://fonts.googleapis.com/css?family=Arimo);
 /*
- Dark th3me
+ --== Dark th3me by G3rard ==--
  Based on Sverto's Dark Theme for Domoticz
- v 22-01-2017 
- G3rard
+ v 25-01-2017
 */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  src: url('fonts/Ubuntu.ttf');
+  src: local('Ubuntu'), url('fonts/Ubuntu.ttf') format('truetype');
+}
 /* Font Ubuntu everywhere */
 html * {
   font-family: Ubuntu !important;
@@ -34,7 +35,6 @@ html * {
    margin-top: -20px;
    text-decoration: none;
    text-transform: none;
-   font-family: Arimo;
    font-size: 0.6em;
    font-style: normal;
    color: #FFF;
