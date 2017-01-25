@@ -592,16 +592,16 @@ input[type="search"] {
 .btnsmall-dis {
   margin-top: 2px;
   margin-bottom: 1px;
-  margin-left: -15px;
-  margin-right: 15px;
+  margin-left: -16px;
+  margin-right: 12px;
   background: transparent;
   color: #d0d0d0;
   text-transform: uppercase;
 }
 .btnsmall-sel {
   margin-top: 1px;
-  margin-left: -15px;
-  margin-right: 15px;
+  margin-left: -16px;
+  margin-right: 12px;
   background: #333333;
   color: #FFBB3F;
   text-transform: uppercase;
@@ -611,8 +611,8 @@ input[type="search"] {
 .btnsmall-dis:hover {
   margin-top: 1px;
   margin-bottom: 1px;
-  margin-left: -15px;
-  margin-right: 15px;
+  margin-left: -16px;
+  margin-right: 12px;
   color: yellow !important;
   background: #353535 !important;
 }
