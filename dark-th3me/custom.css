@@ -200,7 +200,7 @@ body table#itemtabletrippleicon tbody tr:hover {
   content: "";
 }
 #copyright p:after {
-  content: " | dark th3me";
+  content: " | Dark th3me";
 }
 div#utilitycontent {
   margin-bottom: 15px;
@@ -909,4 +909,14 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   border: 1px !important;
   border-color: rgba(51, 51, 51, 0.51) !important;
   border-style: solid !important;
+}
+/*Layout of color-picker*/
+#rgbw_popup {
+	padding-right: 40px;
+}
+.colpick {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 20px;
 }
