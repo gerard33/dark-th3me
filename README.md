@@ -1,5 +1,6 @@
 # dark-th3me
-Domoticz dark th3me
+Domoticz dark th3me<br />
+http://www.domoticz.com/forum/viewtopic.php?f=8&t=15546
 
 Installation:
 copy dark-th3me folder to domoticz/www/styles/
