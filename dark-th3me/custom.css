@@ -638,12 +638,14 @@ input[type="search"] {
   background: #0088cc;
   text-transform: uppercase;
   padding: 8px;
+  text-decoration: none;
 }
 .btn-warning  {
   border: 0px !important;
   background: #f89406;
   text-transform: uppercase;
-  padding: 8px
+  padding: 8px;
+  text-decoration: none;
 }
 .btn-primary:hover {
   color: yellow !important;
