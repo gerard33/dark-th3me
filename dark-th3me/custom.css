@@ -922,3 +922,14 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
 	margin-left: 50px;
 	margin-right: 20px;
 }
+
+.label-important {
+    background-color: #b94a48;
+    text-transform: uppercase;
+}
+
+.label-important:hover {
+    background-color: #b94a48;
+    text-transform: uppercase;
+    color: yellow !important;
+}
