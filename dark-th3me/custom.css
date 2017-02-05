@@ -1,7 +1,7 @@
 /*
- --== Dark th3me by G3rard ==--
- Based on Sverto's Dark Theme for Domoticz
- v 25-01-2017
+  --== Dark th3me by G3rard ==--
+  Based on Sverto's Dark Theme for Domoticz
+  v 05-02-2017
 */
 @font-face {
   font-family: "Ubuntu";
@@ -21,23 +21,23 @@ html * {
   border-color: transparent;
 }
 .brand h1 {
-   margin-left: 40px;
-   margin-top: -45px;
-   font-size: 18px;
-   font-weight: 500 !important;
-   color: #FFF;
-   text-transform: uppercase;
+  margin-left: 40px;
+  margin-top: -45px;
+  font-size: 18px;
+  font-weight: 500 !important;
+  color: #FFF;
+  text-transform: uppercase;
 
 }
 .brand h2 {
-   float: left;
-   margin-left: 40px;
-   margin-top: -20px;
-   text-decoration: none;
-   text-transform: none;
-   font-size: 0.6em;
-   font-style: normal;
-   color: #FFF;
+  float: left;
+  margin-left: 40px;
+  margin-top: -20px;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 0.6em;
+  font-style: normal;
+  color: #FFF;
 }
 #appversion:after {
   content: "";
@@ -75,14 +75,14 @@ body {
 }
 */
 body {
-	background: #7d7e7d;
+  background: #7d7e7d;
 }
 /*only show special background when screen is min 1000px width, so tablets show normal background*/
 @media (min-width: 1025px) {
-	body {
-	  background: #7d7e7d url(images/domoticz.jpg) center fixed;
-	  color: #ffffff;
-	}
+  body {
+    background: #7d7e7d url(images/domoticz.jpg) center fixed;
+    color: #ffffff;
+  }
 }
 /* Dashboard tekst */
 body table#itemtablesmall tr td:first-child,
@@ -228,13 +228,13 @@ div#utilitycontent {
   border: none;
 }
 .sub-tabs > .active > a {
-	color: #fff;
-	background-color: #457595;
-	border: none;
+  color: #fff;
+  background-color: #457595;
+  border: none;
 }
 .ui-corner-all {
-	-webkit-border-radius: .3125em;
-	border-radius: .3125em;
+  -webkit-border-radius: .3125em;
+  border-radius: .3125em;
 }
 .ui-button-text { /* button for selector switch */
   height: 10px;
@@ -474,11 +474,11 @@ div.log {
   color: #FA1515;
 }
 .dropdown-menu .divider {
-   height: 0px;
-   margin: 0px 0px;
-   overflow: hidden;
-   background-color: #353535;
-   border-bottom: 0px solid #676D79;
+  height: 0px;
+  margin: 0px 0px;
+  overflow: hidden;
+  background-color: #353535;
+  border-bottom: 0px solid #676D79;
 }
 td#name {
   /* Workaround-CSS-Hack for ugly coloured name tags without losing the state color */
@@ -517,11 +517,11 @@ ul#noty_topRight_layout_container {
 }
 /* Flat style for 'Apply settings' button at Settings page */
 .sub-tabs-apply {
-    border: 1px solid transparent !important;
+  border: 1px solid transparent !important;
 }
 .btn-danger {
-    background-color: #B94A48 !important;
-	color: #d0d0d0 !important;
+  background-color: #B94A48 !important;
+  color: #d0d0d0 !important;
 }
 #bannav,
 #scenecontent > table{
@@ -752,12 +752,12 @@ body table#itemtabledoubleicon tr td:first-child+td+td+td+td+td+td+td img,
 body table#itemtabletrippleicon tr td:first-child+td+td+td+td+td+td+td+td img,
 body table#itemtablenostatus tr td:first-child+td+td+td+td+td+td img,
 body table#itemtablenotype tr td:first-child+td+td+td+td+td img {
-    float: left;
-    right: 0px;
-    margin: 5px 8px 0px 0px;
-	/*right: 12px;
-    bottom: 20px;
-    position: absolute;*/
+  float: left;
+  right: 0px;
+  margin: 5px 8px 0px 0px;
+  /*right: 12px;
+  bottom: 20px;
+  position: absolute;*/
 }
 /*next pages in table overview*/
 #notificationtable_paginate,
@@ -775,112 +775,111 @@ body table#itemtablenotype tr td:first-child + td + td + td + td + td,
 body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td + td,
 body table#itemtabletrippleicon tr td:first-child + td + td + td + td + td + td + td + td,
 body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
-    background: #3e3e3e;
-	overflow: auto;
-	padding: 0 5px;
-	margin-top: 0px;
+  background: #3e3e3e;
+  overflow: auto;
+  padding: 0 5px;
+  margin-top: 0px;
 }
 /*buttons on top*/
 .navbar .nav li a,
 .navbar .nav .current_page_item > a {
-	background-image: none;
-	border-radius: 0;
-	border: none;
-    position: relative;
-    bottom: 0;
-	padding: 10px 4px 10px 4px !important;
-	text-align: left;
-	text-transform: uppercase !important;
+  background-image: none;
+  border-radius: 0;
+  border: none;
+  position: relative;
+  bottom: 0;
+  padding: 10px 4px 10px 4px !important;
+  text-align: left;
+  text-transform: uppercase !important;
 }
 .navbar .nav li a:hover,
 .navbar .nav .current_page_item > a:hover {
-	background-image: none;
-	background-color: #353535 !important;
-	color: yellow !important;
-	border: 1px;
-	border-style: solid;
-    border-color: #444141;
-    position: relative;
-    bottom: 0;
-	padding: 9px 3px 9px 3px !important;
-	text-transform: uppercase !important;
-	
+  background-image: none;
+  background-color: #353535 !important;
+  color: yellow !important;
+  border: 1px;
+  border-style: solid;
+  border-color: #444141;
+  position: relative;
+  bottom: 0;
+  padding: 9px 3px 9px 3px !important;
+  text-transform: uppercase !important;
 }
 .navbar .nav .current_page_item > a {
-	background-image: none !important;
-	background-color: #353535 !important;
-	color: #FFBB3F !important;
-	border: 1px;
-	border-style: solid;
-    border-color: #444141;
-    position: relative;
-    bottom: 0;
-	padding: 9px 3px 9px 3px !important;
-	text-transform: uppercase !important;
+  background-image: none !important;
+  background-color: #353535 !important;
+  color: #FFBB3F !important;
+  border: 1px;
+  border-style: solid;
+  border-color: #444141;
+  position: relative;
+  bottom: 0;
+  padding: 9px 3px 9px 3px !important;
+  text-transform: uppercase !important;
 }
 
 .navbar .nav {
-	margin-top: 7px;
+  margin-top: 7px;
 }
 .dropdown-menu.pull-right {
-	/*border: 1px !important;*/
+  /*border: 1px !important;*/
 }
 /*notification after pressing button*/
 #notification{
-    background: #353535 !important;
-    border: 2px;
-	border-style: solid;
-    border-color: #444141;
+  background: #353535 !important;
+  border: 2px;
+  border-style: solid;
+  border-color: #444141;
 }
 #notification p{
-    font-size: 18px;
-    color: #FFBB3F;
-    margin: 11px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    font-weight: bold;
-    text-transform: uppercase !important;
+  font-size: 18px;
+  color: #FFBB3F;
+  margin: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: bold;
+  text-transform: uppercase !important;
 }
 /*Devices table*/
 .DataTables_sort_wrapper {
-	text-transform: uppercase;
-	text-align: left;
-	padding: 0px 0px 0px 8px;
-	font-size: 0.9em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0px 0px 0px 8px;
+  font-size: 0.9em;
 }
 .sorting,
 .sorting_asc,
 .sorting_disabled {
-	background: #444;
-	border-color: #444;
+  background: #444;
+  border-color: #444;
 }
 /*Devices toolbar*/
 .fg-toolbar,
 .ui-dialog-titlebar {
-	background: rgba(51, 51, 51, 0.7);
-	text-transform: uppercase;
-	font-size: 0.9em;
+  background: rgba(51, 51, 51, 0.7);
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 .dataTables_paginate {
-	margin: 0px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
 }
 .btn.dropdown-toggle,
 .btn.btn-success {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 .btn.btn-success:hover {
-	color: yellow;
+  color: yellow;
 }
 /*About page background
 #holder,
 .ng-binding,
 #canvas2,
 #syno-nsc-ext-gen3 {
-	 background: #444 url(images/domoticz_bg.jpg) center fixed;
+  background: #444 url(images/domoticz_bg.jpg) center fixed;
 }
 .ng-binding {
-	margin: 19px 0px 0px 0px;
+  margin: 19px 0px 0px 0px;
 }
 */
 /*border on button and text before button*/
@@ -914,22 +913,20 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
 }
 /*Layout of color-picker*/
 #rgbw_popup {
-	padding-right: 40px;
+  padding-right: 40px;
 }
 .colpick {
-	margin-top: 30px;
-	margin-bottom: 20px;
-	margin-left: 50px;
-	margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 20px;
 }
-
 .label-important {
-    background-color: #b94a48;
-    text-transform: uppercase;
+  background-color: #b94a48;
+  text-transform: uppercase;
 }
-
 .label-important:hover {
-    background-color: #b94a48;
-    text-transform: uppercase;
-    color: yellow !important;
+  background-color: #b94a48;
+  text-transform: uppercase;
+  color: yellow !important;
 }
