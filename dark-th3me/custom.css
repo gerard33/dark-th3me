@@ -933,3 +933,8 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   text-transform: uppercase;
   color: yellow !important;
 }
+
+/*cursor pointer for inactive tabs in settings*/
+.nav-tabs  > li > a, {
+  cursor: pointer;
+}
