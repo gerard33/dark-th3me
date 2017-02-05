@@ -924,6 +924,9 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
 .label-important {
   background-color: #b94a48;
   text-transform: uppercase;
+  border: 1px !important;
+  border-color: rgba(51, 51, 51, 0.51) !important;
+  border-style: solid !important;
 }
 .label-important:hover {
   background-color: #b94a48;
