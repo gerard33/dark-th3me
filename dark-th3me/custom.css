@@ -329,7 +329,7 @@ td#type{ /* type of switch row*/
   border: 0;
 }
 .page-header-small {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #bfbfbf;
 }
 .nav > li > a:hover, .nav > li > a:focus {
   color: #111;
@@ -662,7 +662,7 @@ input[type="search"] {
 }
 .btn-warning:hover  {
   color: yellow !important;
-  background: #f89406;
+  background: #c77500;
   text-transform: uppercase;
   padding: 8px;
   border: 1px !important;
@@ -689,8 +689,19 @@ input[type="search"] {
   padding: 7px 11px 7px 11px !important;
   text-transform: uppercase !important;
 }
+.sub-tabs > .active > a:hover {
+  background-image: none;
+  background-color: #353535 !important;
+  color: #FFBB3F !important;
+  border: 2px;
+  border-style: solid;
+  border-color: #444141;
+  position: relative;
+  bottom: 0;
+  padding: 7px 11px 7px 11px !important;
+  text-transform: uppercase !important;
+}
 .nav-tabs  > li > a:hover,
-.sub-tabs > .active > a:hover,
 .btn.btn-danger:hover,
 .btn-danger:hover {
   background-image: none;
