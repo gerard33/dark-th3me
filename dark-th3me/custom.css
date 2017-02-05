@@ -653,7 +653,7 @@ input[type="search"] {
 }
 .btn-primary:hover {
   color: yellow !important;
-  background: #3c3e40;
+  background: #353535;
   text-transform: uppercase;
   padding: 8px;
   border: 1px !important;
