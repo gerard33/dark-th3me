@@ -634,32 +634,40 @@ input[type="search"] {
 }
 /*buttons database backup*/
 .btn-primary {
-  border: 0px !important;
-  background: #0088cc;
+  background: #3c3e40;
   text-transform: uppercase;
   padding: 8px;
   text-decoration: none;
+  border: 1px !important;
+  border-color: rgba(51, 51, 51, 0.51) !important;
+  border-style: solid !important;
 }
 .btn-warning  {
-  border: 0px !important;
   background: #f89406;
   text-transform: uppercase;
   padding: 8px;
   text-decoration: none;
+  border: 1px !important;
+  border-color: rgba(51, 51, 51, 0.51) !important;
+  border-style: solid !important;
 }
 .btn-primary:hover {
   color: yellow !important;
-  border: 0px !important;
-  background: #0088cc;
+  background: #3c3e40;
   text-transform: uppercase;
-  padding: 8px
+  padding: 8px;
+  border: 1px !important;
+  border-color: rgba(51, 51, 51, 0.51) !important;
+  border-style: solid !important;
 }
 .btn-warning:hover  {
   color: yellow !important;
-  border: 0px !important;
   background: #f89406;
   text-transform: uppercase;
-  padding: 8px
+  padding: 8px;
+  border: 1px !important;
+  border-color: rgba(51, 51, 51, 0.51) !important;
+  border-style: solid !important;
 }
 .label.label-info.lcursor:hover {
   color: yellow !important;
