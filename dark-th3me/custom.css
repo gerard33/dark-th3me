@@ -923,10 +923,14 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
 .btnstyle,
 .btnstylerev,
 .label.label-info.lcursor,
-.btn-danger,
 .btn-small,
 .btn-success {
   border: 1px !important;
+  border-color: rgba(51, 51, 51, 0.51) !important;
+  border-style: solid !important;
+}
+.btn-danger {
+  border: 2px !important;
   border-color: rgba(51, 51, 51, 0.51) !important;
   border-style: solid !important;
 }
