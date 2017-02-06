@@ -689,6 +689,10 @@ input[type="search"] {
   padding: 7px 11px 7px 11px !important;
   text-transform: uppercase !important;
 }
+/*cursor pointer for active tab in settings and hand cursor fo inactive*/
+.nav-tabs  > li > a {
+  cursor: pointer;
+}
 .sub-tabs > .active > a:hover {
   background-image: none;
   background-color: #353535 !important;
@@ -955,9 +959,4 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   background-color: #b94a48;
   text-transform: uppercase;
   color: yellow !important;
-}
-
-/*cursor pointer for inactive tabs in settings*/
-.nav-tabs  > li > a {
-  cursor: pointer;
 }
