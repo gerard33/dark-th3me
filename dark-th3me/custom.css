@@ -804,6 +804,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   overflow: auto;
   padding: 0 5px;
   margin-top: 0px;
+  margin-right: 2px;
 }
 /*buttons on top*/
 .navbar .nav li a,
