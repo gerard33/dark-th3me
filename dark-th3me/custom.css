@@ -635,6 +635,7 @@ input[type="search"] {
 /*buttons database backup*/
 .btn-primary {
   background: #3c3e40;
+  color: #d0d0d0 !important;
   text-transform: uppercase;
   padding: 8px;
   text-decoration: none;
@@ -644,6 +645,7 @@ input[type="search"] {
 }
 .btn-warning  {
   background: #f89406;
+  color: #d0d0d0 !important;
   text-transform: uppercase;
   padding: 8px;
   text-decoration: none;
