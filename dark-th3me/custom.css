@@ -1,7 +1,7 @@
 /*
   --== Dark th3me by G3rard ==--
   Based on Sverto's Dark Theme for Domoticz
-  v 05-02-2017
+  v 16-02-2017
 */
 @font-face {
   font-family: "Ubuntu";
@@ -695,6 +695,7 @@ input[type="search"] {
   bottom: 0;
   padding: 7px 11px 7px 11px !important;
   text-transform: uppercase !important;
+  cursor: pointer;
 }
 .sub-tabs > .active > a {
   background-image: none !important;
@@ -779,6 +780,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   overflow: auto;
   padding: 0 5px;
   margin-top: 0px;
+  margin-right: 2px;
 }
 /*buttons on top*/
 .navbar .nav li a,
@@ -910,6 +912,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   border: 1px !important;
   border-color: rgba(51, 51, 51, 0.51) !important;
   border-style: solid !important;
+  color: #d0d0d0 !important;
 }
 /*Layout of color-picker*/
 #rgbw_popup {
@@ -921,6 +924,11 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td {
   margin-left: 50px;
   margin-right: 20px;
 }
+/*apply settings button in settings page*/
+.btn-danger.sub-tabs-apply {
+  margin-right: 4px !important;
+}
+/*button for Zwave initialization*/
 .label-important {
   background-color: #b94a48;
   text-transform: uppercase;
