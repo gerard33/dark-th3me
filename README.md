@@ -2,8 +2,9 @@
 Domoticz dark th3me<br />
 http://www.domoticz.com/forum/viewtopic.php?f=8&t=15546
 
-Installation:
-copy dark-th3me folder to domoticz/www/styles/
+The theme is part of the standard Domoticz themes since v3.6745.
+
+When you are on an older version, you can install the theme manually by copying the dark-th3me folder to domoticz/www/styles/.
 
 ![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/theme1.jpg)
 ![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/theme2.jpg)
