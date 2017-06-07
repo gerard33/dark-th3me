@@ -17,4 +17,4 @@ Blue -> protected device<br />
 Red -> not updated for a while<br />
 Yellow -> battery almost empty<br /><br />
 ![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/buttons.png)
-![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/buttons 2.png)
+![alt tag](https://github.com/gerard33/dark-th3me/blob/master/screenshots/buttons2.png)
