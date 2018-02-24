@@ -1,3 +1,5 @@
+*This theme is no longer maintained.*
+
 # dark-th3me
 Domoticz dark th3me<br />
 http://www.domoticz.com/forum/viewtopic.php?f=8&t=15546
